@@ -546,7 +546,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1580395310533010}
   m_LocalRotation: {x: -0.020780869, y: 0.03970418, z: 0.041342925, w: 0.99813956}
-  m_LocalPosition: {x: -0.51, y: 0.14400005, z: -3.29}
+  m_LocalPosition: {x: -0.51, y: 0.14400005, z: -6.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4336409604155838}
@@ -572,7 +572,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049735341345434}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -58.8, y: -5.3, z: 0}
+  m_LocalPosition: {x: -82.5, y: -13.5, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4348430946562010}
@@ -673,13 +673,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1585459145948654}
-  m_LocalRotation: {x: 0.08977333, y: -0, z: -0, w: 0.9959622}
-  m_LocalPosition: {x: 2.5099983, y: 7.21, z: -19.85}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.51, y: 2.73, z: -15.5}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 4163329916724468}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 10.301001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4408017582757510
 Transform:
   m_ObjectHideFlags: 1
@@ -1113,8 +1113,8 @@ Light:
   m_Type: 0
   m_Color: {r: 0.38602942, g: 0.40238336, b: 0.44117647, a: 1}
   m_Intensity: 3.3
-  m_Range: 30.71
-  m_SpotAngle: 59.670338
+  m_Range: 9.5
+  m_SpotAngle: 46.1
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -1217,7 +1217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   horizontalRayCount: 4
   verticalRayCount: 4
 --- !u!114 &114419897373873332
@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579886f63bbbef947be588bfdafdc98a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bala: {fileID: 1129078036571798, guid: fa7d043e40806eb4e99352dbe19557fc, type: 2}
+  bala: {fileID: 0}
   DisparadorOBJ: {fileID: 1099128625114094}
 --- !u!114 &114510477995277818
 MonoBehaviour:
